@@ -1,5 +1,5 @@
 class Customer
-  attr_accessible :name, :meal 
+  attr_accessor :name, :meal 
   
   @@all = []
   
