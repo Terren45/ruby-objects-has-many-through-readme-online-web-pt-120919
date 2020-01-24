@@ -17,9 +17,9 @@ class Meal
   end
   
   def initialize(new_meal)
-    @customer = customer
-    @waiter = waiter
-    @total = total
-    @tip = tip=0 
-  end
+   # @customer = customer
+    #@waiter = waiter
+    @#total = total
+    #@tip = tip=0 
+  #end
 end
