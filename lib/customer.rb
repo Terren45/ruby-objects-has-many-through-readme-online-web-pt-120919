@@ -1,8 +1,10 @@
 class Customer
-  attr_accessible :name, :age 
+  attr_accessible :name, :meal 
+  
+  @@all = []
   
   def initialize(name)
     @name = name
-    @age = age
+    @meal = meal
   end
 end
