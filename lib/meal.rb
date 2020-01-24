@@ -16,8 +16,8 @@ class Meal
     @@all
   end
   
-  def meals
-    @customer
+  def self
+    @name
   end
   
     
