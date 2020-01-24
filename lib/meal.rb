@@ -17,7 +17,7 @@ class Meal
   end
   
   def self
-    @name
+    @customer = customer
   end
   
     
