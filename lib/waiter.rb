@@ -13,4 +13,8 @@ class Waiter
        @@all
      end
      
+     def self
+       self
+     end
+     
 end
