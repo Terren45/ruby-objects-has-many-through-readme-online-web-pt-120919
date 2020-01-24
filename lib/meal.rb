@@ -16,7 +16,7 @@ class Meal
     @@all
   end
   
-  def self
+  def meals
     @customer
   end
   
