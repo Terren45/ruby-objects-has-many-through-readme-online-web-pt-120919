@@ -15,4 +15,11 @@ class Meal
   def self.all
     @@all
   end
+  
+  def initialize(new_meal)
+    @customer = customer
+    @waiter = waiter
+    @total = total
+    @tip = tip=0 
+  end
 end
