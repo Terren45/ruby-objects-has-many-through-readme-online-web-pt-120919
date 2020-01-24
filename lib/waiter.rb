@@ -9,7 +9,7 @@ class Waiter
      @year_experience = yrs_experience
    end
      
-     def self.all
+     def self
        @@all
      end
 end
