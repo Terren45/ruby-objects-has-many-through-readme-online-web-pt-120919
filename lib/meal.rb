@@ -16,5 +16,9 @@ class Meal
     @@all
   end
   
+  def self
+    @customer
+  end
+  
     
 end
